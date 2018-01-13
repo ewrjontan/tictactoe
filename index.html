@@ -1,1 +1,84 @@
-Hello world
+<!DOCTYPE html>
+<html>
+  	<head>
+		<title>Tic Tac Toe.com</title>	
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    	<link type = 'text/css' rel = 'stylesheet' href = 'stylesheet.css'/>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    	<script src="https://use.fontawesome.com/a037c8550a.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    	<script src="tictactoe.js"></script>
+  	</head>
+
+
+  <body>
+    <div id="game-container">
+
+      <div id="game-select-container">
+        <h1 id="game-title">Tic Tac Toe</h1>
+
+        <div id="player-select-container">
+          <h3 class="player-option" id="single-player">Single Player</h3>
+          <h3 class="player-option" id="two-player">Two Player</h3>
+        </div>
+
+        <div id="character-container">
+          <div class="character" id="x-character">
+            X
+          </div>
+
+          <h3>or</h3>
+
+          <div class="character" id="o-character">
+            O
+          </div>
+        </div>
+      </div>
+
+      <div id="begin-container">
+        <h1 id="begin-text">Begin</h1>
+      </div>
+
+      <div id="end-container">
+        <h1 id="end-game-text">End Game</h1>
+      </div>
+
+      <div id="game-board">
+        <div id="turn-indicator-container">
+          <div class="player-turn" id="player-one-indicator">
+            P1
+          </div>
+          <div id="player-two-indicator"></div>
+        </div>
+
+        <div id="horizontal-line-container">
+          <div class="horizontal-line"></div>
+          <div class="horizontal-line"></div>
+        </div>
+
+        <div id="vertical-line-container">
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+        </div>
+
+        <div id="zone-container">
+          <div class="zone" id="zone-one"><!--<div class="mark x-mark">X
+
+          </div>--></div>
+          <div class="zone" id="zone-two"><!--<div class="mark o-mark">O
+
+          </div>--></div>
+          <div class="zone" id="zone-three"></div>
+          <div class="zone" id="zone-four"></div>
+          <div class="zone" id="zone-five"></div>
+          <div class="zone" id="zone-six"></div>
+          <div class="zone" id="zone-seven"></div>
+          <div class="zone" id="zone-eight"></div>
+          <div class="zone" id="zone-nine"></div>
+        </div>  
+      </div>
+    </div>  
+
+  </body>  
+  
+</html>  
