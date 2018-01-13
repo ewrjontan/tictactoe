@@ -59,7 +59,7 @@ body{
   -webkit-transition: opacity 1s;
   background-color: none;
   font-size: 1.5em;
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   height: 75px;
@@ -80,11 +80,15 @@ body{
   justify-content: space-around;
   background-color: none;
   position: absolute;
-  margin-top: -155px;
+  margin-top: -170px;
   width: 100%;
   opacity: 0;
   transition: opacity 2s;
   visibility: hidden;
+}
+
+#character-container h3{
+    font-size: 1.5em;
 }
 
 .character{
@@ -216,6 +220,8 @@ body{
   width: 100px;
   font-size: 6.5em;
   background-color: none;
+  position: relative;
+  top: -10px;
 }
 
 .X{
