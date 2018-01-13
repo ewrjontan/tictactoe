@@ -18,7 +18,6 @@ body{
   background-size: cover;*/
   background-attachment: fixed;
   margin: 0;
-  font-family: "DKCrumble", Georgia, serif;
 }
 
 
@@ -52,6 +51,8 @@ body{
   transition: opacity 1s;
   -webkit-transition: opacity 1s;
   //display: none;
+  color: red;
+  font-family: "DKCrumble", Georgia, serif;
 }
 
 #player-select-container{
